@@ -29,6 +29,22 @@ Movie-Data-Analysis/
 - 不同电影类型的分布情况
 - 电影评分与其他因素之间的关系
 
+## 数据来源
+
+本项目使用 Kaggle 提供的 TMDB 5000 Movie Dataset。
+
+数据集包含两个文件：
+
+- tmdb_5000_movies.csv
+  - 电影基本信息
+  - 包括电影名称、类型、上映日期、预算、收入、评分等字段
+
+- tmdb_5000_credits.csv
+  - 演员和制作人员信息
+  - 包括演员表、导演等字段
+
+数据来源：
+Kaggle - TMDB 5000 Movie Dataset
 
 
 
