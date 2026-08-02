@@ -15,12 +15,15 @@
 ## 项目结构
 Movie-Data-Analysis/
 
+├── notebooks/
 │
-├── notebooks/     # 存放数据分析过程
+├── 01_data_exploration.ipynb
 │
-├── README.md      # 项目说明文件
+└── 02_movie_visualization.ipynb
 │
-└── .gitignore     # Git忽略文件配置
+├── README.md
+│
+└── .gitignore
 
 ## 分析目标
 本项目希望通过电影数据分析，探索以下问题：
@@ -55,12 +58,26 @@ Kaggle - TMDB 5000 Movie Dataset
 - 热度与票房收入存在一定正相关关系，但并非所有热门电影都获得高票房。
 - 高评分电影不一定拥有最高票房收入，商业成功受到多种因素影响。
 
-
 ### Movie Genre Analysis
 通过统计电影类型字段，分析不同电影类型在数据集中的分布情况。
 结果显示：
 - Drama 是数量最多的电影类型。
 - Comedy 和 Thriller 也占有较高比例。
+
+### Movie Visualization Analysis
+通过可视化方法分析电影数量趋势、类型分布、票房表现、热度以及评分与商业表现之间的关系。
+主要分析内容：
+- Movie release trend over years
+- Movie genre distribution
+- Top revenue movies
+- Popularity vs revenue
+- Rating vs revenue
+
+主要发现：
+- Movie production has increased significantly over time.
+- Drama is the most common genre.
+- High popularity does not always mean higher revenue.
+- High-rated movies are not necessarily the highest-grossing movies.
 
 ## 总结
 综合分析结果可以发现：
